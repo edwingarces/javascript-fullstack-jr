@@ -1,0 +1,77 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+/* 
+
+h1 {
+  color: #9030a6;
+  font-size: 34px;
+}
+
+li {
+  font-size: 12px;
+  color: gray;
+}
+
+.text-blue {
+  color: blue;
+}
+
+.font-sm {
+  font-size: 12px;
+}
+.font-m {
+  font-size: 16px;
+}
+.font-l {
+  font-size: 22px;
+}
+
+p {
+  color: orange;
+}
+
+// La etiqueta p tiene que estar envuelta por la etiqueta div
+div p {
+  color: pink;
+}
+
+// La etiqueta p tiene que estar precedida por la etiqueta h2
+h2 + p {
+  color: blue;
+}
+
+a:hover {
+  color: red;
+}
+
+a {
+  color: pink;
+} */
+
+p,
+ul {
+  border: 2px solid rebeccapurple;
+  padding: .5em;
+}
+
+.block,
+li {
+  border: 2px solid blue;
+  padding: .5em;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+.block {
+  display: block;
+}
